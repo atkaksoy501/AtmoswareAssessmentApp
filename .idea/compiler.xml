@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DiscoveryServer" />
+        <module name="identityService" />
         <module name="ManagementService" />
         <module name="ExamService" />
         <module name="QuestionService" />
@@ -21,6 +22,7 @@
       <module name="GatewayService" options="-parameters" />
       <module name="ManagementService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
+      <module name="identityService" options="-parameters" />
     </option>
   </component>
 </project>
