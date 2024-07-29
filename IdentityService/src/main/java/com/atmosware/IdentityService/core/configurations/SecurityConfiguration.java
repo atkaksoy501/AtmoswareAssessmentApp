@@ -1,7 +1,6 @@
 package com.atmosware.IdentityService.core.configurations;
 
-import com.turkcell.crm.core.core.config.BaseSecurityService;
-import com.turkcell.crm.core.core.filters.JwtAuthFilter;
+import com.atmosware.Core.config.BaseSecurityService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

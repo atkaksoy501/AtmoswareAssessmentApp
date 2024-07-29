@@ -3,7 +3,7 @@ package com.atmosware.Core.exceptions.handlers;
 
 import com.atmosware.Core.exceptions.problemDetails.BusinessProblemDetails;
 import com.atmosware.Core.exceptions.problemDetails.ValidationProblemDetails;
-import com.turkcell.crm.core.core.exceptions.types.BusinessException;
+import com.atmosware.Core.exceptions.types.BusinessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

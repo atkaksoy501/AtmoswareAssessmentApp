@@ -1,6 +1,6 @@
 package com.atmosware.IdentityService.business.concretes;
 
-import com.turkcell.crm.core.core.exceptions.types.BusinessException;
+import com.atmosware.Core.exceptions.types.BusinessException;
 import com.atmosware.IdentityService.business.abstracts.UserService;
 import com.atmosware.IdentityService.business.messages.AuthMessages;
 import com.atmosware.IdentityService.dataAccess.abstracts.UserRepository;

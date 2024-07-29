@@ -1,7 +1,5 @@
 package com.atmosware.IdentityService.kafka.consumer;
 
-import com.turkcell.crm.common.events.customer.CreateIndividualCustomerEvent;
-import com.turkcell.crm.common.events.identity.CreateCustomerIdentityEvent;
 import com.atmosware.IdentityService.business.abstracts.UserService;
 import com.atmosware.IdentityService.core.utilities.mapping.ModelMapperService;
 import com.atmosware.IdentityService.entities.concretes.User;
@@ -18,10 +16,10 @@ public class IdentityConsumer {
     private UserService userService;
     private ModelMapperService modelMapperService;
 
-    @KafkaListener(topics = "customer-identity-created", groupId="customer-identity-create")
-    public void consume(CreateCustomerIdentityEvent customerIdentityEvent){
-        User user = modelMapperService.forRequest().map(customerIdentityEvent, User.class);
-
-        this.userService.register(user);
-    }
+//    @KafkaListener(topics = "customer-identity-created", groupId="customer-identity-create")
+//    public void consume(CreateCustomerIdentityEvent customerIdentityEvent){
+//        User user = modelMapperService.forRequest().map(customerIdentityEvent, User.class);
+//
+//        this.userService.register(user);
+//    }
 }
